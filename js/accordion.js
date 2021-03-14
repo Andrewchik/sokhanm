@@ -1,8 +1,8 @@
-let acc = document.getElementsByClassName("accordion");
- let i;
-for (i = 0; i < acc.length; i++) {
- acc[i].onclick = function () {
- this.classList.toggle("active");
- this.nextElementSibling.classList.toggle("show");
- }
- }
+function toggleIcon(e) {
+    $(e.target)
+      .prev(".panel-heading")
+      .find(".more-less")
+      .toggleClass("glyphicon-plus glyphicon-minus");
+  }
+  $(".panel-group").on("hidden.bs.collapse", toggleIcon);
+  $(".panel-group").on("shown.bs.collapse", toggleIcon);
