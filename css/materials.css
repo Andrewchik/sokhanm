@@ -1,0 +1,183 @@
+.materials{
+    background: #3498db;
+   
+}
+
+.materials-title h2{
+   
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.materials-title p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.training{
+    background: rgb(255, 0, 0);
+    padding: 10px;
+  
+    text-transform: uppercase;
+}
+
+/* ============================= 
+    FEATURE-3 CSS
+================================ */
+.feature-style-3 {
+    background: #fffefe;
+    padding: 100px 0;
+  }
+  
+  .feature-style-3 .single-feature {
+    padding: 30px 35px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 25px rgba(218, 211, 211, 0.3);
+  }
+
+  .feature-style-3 .single-feature:hover {
+    transform: scale(1.01);
+  }
+  
+  .feature-style-3 .single-feature .icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #2F80ED;
+    color: #ffffff;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -60px;
+  }
+  
+  .feature-style-3 .single-feature .content h5 {
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+
+  /* ============================= 
+    ABOUT-5 CSS
+================================ */
+.about-style-5 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 130px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .about-style-5::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #4B4848, #4B4848), #F3F3F3;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .about-style-5 .about-content-wrapper {
+    padding: 50px;
+    background: #ffffff;
+  }
+  
+  @media (max-width: 767px) {
+    .about-style-5 .about-content-wrapper {
+      padding: 50px 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .about-style-5 .about-content-wrapper .section-title h3 {
+      font-size: 33px;
+    }
+  }
+  
+    .about ul{
+        font-size: 18px;
+        font-weight: 700;
+    }  
+
+
+#prices{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+   .prices-title h3{
+       font-weight: 900;
+       background: rgb(10, 0, 0);
+       color: #fff;
+       border-radius: 10px;
+       padding-bottom: 20px;
+       
+   }
+
+   .prices-title{
+       margin-bottom: 20px;
+   }
+
+
+   /* ACCORDION */
+
+.main_accordion .single_accordion{
+    margin-bottom: 20px;
+   }
+   button.accordion {
+    background:url(https://bootstraptema.ru/snippets/element/2016/abmd/accordion.png) no-repeat scroll right -114px #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    transition:background-color 0.5s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+   }
+   button.accordion.active, button.accordion:hover {
+    background:url(https://bootstraptema.ru/snippets/element/2016/abmd/accordion.png) no-repeat scroll right 10px #ec4848;;
+   }
+   div.panel {
+    padding: 0.5rem;
+    background-color: #fefefe;
+    display: none;
+    transition:all 0.6s;
+    border: 1px solid #ddd;
+   }
+   div.panel p{
+    margin-bottom: 0;
+   }
+   div.panel.show {
+    display: block !important;
+    margin-bottom: 0;
+   }
+  
+  
+   .accordion button:hover{
+     transform: scale(1);
+   }
+  /*---------------------*/
+  
+  button.accordion{
+    padding-right: 45px;
+  }
+  
+  
+  .single_accordion p{
+    text-align: left;
+    font-weight: 600;
+  }
+  
