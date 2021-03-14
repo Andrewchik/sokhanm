@@ -600,7 +600,8 @@ font-weight: bold;
 }
 
 .w h4 {
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 30px;
 }
 .about-title{
   font-weight: bold;
